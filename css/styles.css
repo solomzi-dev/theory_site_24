@@ -5,3 +5,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --blue: #5385c1;
+    --grey: #bbb;
+    --pink: #ff6098;
+    --white: #fff;
+    --black: #000;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
