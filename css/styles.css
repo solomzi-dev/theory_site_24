@@ -71,6 +71,10 @@ p.hero-txt {
     gap: 1.5rem;
 }
 
+#main-nav a:hover {
+    color: var(--white);
+}
+
 .header-content {
     text-align: center;
 }
