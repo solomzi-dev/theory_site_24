@@ -17,3 +17,7 @@
 body {
     font-family: "Raleway", sans-serif;
 }
+
+.fa-xmark, .fa-bars {
+    display: none;
+}
