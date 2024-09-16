@@ -48,6 +48,21 @@ p.hero-txt {
     color: var(--grey);
 }
 
+.btn {
+    cursor: pointer;
+    background-color: var(--blue);
+    color: var(--white);
+    border: none;
+    padding: .6rem 1.4rem;
+    font-size: 1.1rem;
+}
+
+.btn:hover {
+    opacity: .9;
+}
+
+/* Header section */
+
 .main-header {
     background-image: url('../images/banner.jpg');
     background-position: center;
@@ -89,3 +104,40 @@ p.hero-txt {
 }
 
 /* What we do section */
+.wwd {
+    padding: 4.5rem 0;
+    width: 100%;
+}
+
+.wwd-container {
+    display: flex;
+    justify-content: center;
+}
+
+.wwd .box {
+    max-width: 380px;
+    padding: 0 3rem;
+}
+
+.box h3 {
+    color: var(--blue);
+    line-height: 1.4;
+    font-weight: 200;
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.box p {
+    color: var(--grey);
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.box.middle-box {
+    border-left: var(--grey) solid 1px;
+}
+
+.box.middle-box {
+    border-right: var(--grey) solid 1px;
+}
