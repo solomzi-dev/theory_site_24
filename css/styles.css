@@ -237,3 +237,23 @@ p.hero-txt {
 .showcase-box p {
     font-size: .96rem;
 }
+
+/* Footer */
+footer .social {
+    padding: 2rem 0;
+    border-top: var(--light-grey) solid 1px;
+    display: flex;
+    gap: 1.1rem;
+    color: var(--blue);
+}
+
+footer .disclaimer {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+footer .disclaimer p span {
+    color: var(--blue);
+    font-weight: 400;
+    letter-spacing: .1rem;
+}
