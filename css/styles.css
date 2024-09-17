@@ -257,3 +257,20 @@ footer .disclaimer p span {
     font-weight: 400;
     letter-spacing: .1rem;
 }
+
+/* Media Queries */
+@media (max-width: 1220px) {
+    .team-container {
+        flex-wrap: wrap;
+    }
+
+    .showcase-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .showcase-container .showcase-box {
+        width: 70%;
+        text-align: center;
+    }
+}
